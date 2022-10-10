@@ -1,3 +1,4 @@
+package comunicacion;
 
 public class Periodico extends Escrito{
 
@@ -19,7 +20,7 @@ public class Periodico extends Escrito{
     }
 
     @Override
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 

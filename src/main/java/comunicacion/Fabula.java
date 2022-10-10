@@ -1,3 +1,4 @@
+package comunicacion;
 
 public class Fabula extends Escrito{
 
@@ -16,7 +17,7 @@ public class Fabula extends Escrito{
     }
 
     @Override
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 

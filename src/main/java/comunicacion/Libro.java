@@ -1,3 +1,4 @@
+package comunicacion;
 
 public class Libro extends Escrito{
 
@@ -20,7 +21,7 @@ public class Libro extends Escrito{
     }
 
     @Override
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 

@@ -1,3 +1,4 @@
+package comunicacion;
 
 public abstract class Pictograma {
 	
@@ -16,7 +17,7 @@ public abstract class Pictograma {
 		this.origen = origen;
 	}
 	
-	abstract String interpretacion ();
+	abstract public String interpretacion ();
 	
 	public abstract String toString();
 	

@@ -1,5 +1,5 @@
+package comunicacion;
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class Alfabeto extends Pictograma {
 
@@ -13,7 +13,7 @@ public class Alfabeto extends Pictograma {
     }
 
     @Override
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
